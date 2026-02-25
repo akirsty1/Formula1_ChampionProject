@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piloto</title>
+    <style>
+body {
+            background-color: white;
+            font-family: "Roboto", sans-serif;
+            color: #000;
+            text-align: center;
+            padding: 1px;
+        }
+
+        .encabezado {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 40px;
+            width: 100%;
+
+        }
+
+        .hamburguesa {
+            font-size: 28px;
+            cursor: pointer;
+            margin-left: 50px;
+        }
+
+        .menu_img1 {
+            height: 70px;
+           display: block;
+           margin-top: 10px;
+           justify-content: center;
+           
+        }
+
+        .menu_img2 {
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        .foto-piloto {
+            margin-top: 20px;
+            width: 250px;
+            height: 250px;
+        }
+        
+
+        .boton-inicio {
+            margin-top: 20px;
+            margin: 10px auto;
+            width: 300px;
+            background-color: #C00000;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 1000px;
+            margin-bottom: 10px;
+            font-family: "Roboto", sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+     <div class="encabezado">
+     <span class="hamburguesa">☰</span> 
+    <img src="/img/Iconos/logooo.png" class="menu_img1">
+    <img src="/img\Iconos\usuario.png" class="menu_img2">
+    </div>
+
+    <img src="/img\Piloto-piloto\image (9).png" class="foto-piloto">
+
+    <div class="contenido">
+        <h1 class="nombre-piloto">Max Verstappen</h1>
+        <h3 class="equipo-piloto">Red Bull Racing</h3>
+        <h2 class="subtitulo">Información del piloto</h2>
+        <p>Nombre completo: Max Emilian Verstappen</p>
+        <p>Número de Campeonatos Mundiales: 4 (2021, 2022, 2023, 2024)</p>
+        <p>Nacionalidad: Holandesa</p>
+        <h3 class="pistas">Pistas recientes</h3>
+        <p class="texto-pistas">Australia</p>
+        <p class="texto-pistas">Hace 2 semanas</p>
+        <img src="/img\Circuitos-mini\australia.png" class="pista1">
+        <p class="texto-pistas">Australia</p>
+        <img src="/img\Circuitos-mini\china.png" class="pista2">
+        <p class="texto-pistas">Hace 1 mes</p>
+    </div>
+
+    <div class="boton">
+<button class="boton-inicio" onclick="location.href='html/GPs.html'">Volver a Grand Prix</button>
+</div>
+</body>
+</html>
