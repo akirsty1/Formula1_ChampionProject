@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Prix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+body {
+            background-color: white;
+            font-family: "Roboto", sans-serif;
+            color: #000;
+            text-align: center;
+            padding: 1px;
+        }
+
+        .encabezado {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 40px;
+            width: 100%;
+
+        }
+
+        .hamburguesa {
+            font-size: 28px;
+            cursor: pointer;
+            margin-left: 50px;
+        }
+
+        .menu_img1 {
+            height: 70px;
+           display: block;
+           margin-top: 10px;
+           justify-content: center;
+           
+        }
+
+        .menu_img2 {
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        .boton-desplegable {
+            width: 100%;
+            height: 40px;
+            padding: 10px 20px;
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .boton-desplegable select {
+            width: 180px;
+            height: 42px;
+            border: 1px solid #ccc;
+            color: #555;
+            border-radius: 7px;
+            padding: 5px 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: Roboto, sans-serif;
+            outline: none;
+        }
+
+        .circuitos {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px 50px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            max-width: 300px;
+        }
+
+        .img-circuito {
+            width: 55px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-decoration: none;
+            color: #444;
+            padding: 10px;
+        }
+              
+        .linea-gp {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #444;
+            text-align: center;
+            justify-content: flex-start;
+        }
+
+        .texto-circuito {
+            margin-left: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+     <div class="encabezado">
+     <span class="hamburguesa">☰</span> 
+    <img src="/img/Iconos/logooo.png" class="menu_img1">
+    <img src="/img\Iconos\usuario.png" class="menu_img2">
+    </div>
+
+    <div class="boton-desplegable">
+        <select>
+            <option value="opcion1">GRAND PRIX 2025</option>
+            <option value="opcion2">GRAND PRIX 2024</option>
+            <option value="opcion3">GRAND PRIX 2023</option>
+            <option value="opcion4">GRAND PRIX 2022</option>
+        </select>
+    </div>
+
+    <div class="circuitos">
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\monaco.png" alt="Australia" class="img-circuito">
+        <span class="texto-circuito">Australia, 16/03</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\china.png" alt="China" class="img-circuito">
+        <span class="texto-circuito">China, 23/03</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\austria.png" alt="Japón" class="img-circuito">
+        <span class="texto-circuito">Japón, 06/04</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\monaco.png" alt="Baréin" class="img-circuito">
+        <span class="texto-circuito">Baréin, 15/04</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\canada.png" alt="Arabia Saudí" class="img-circuito">
+        <span class="texto-circuito">Arabia Saudí, 26/04</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\miami.png" alt="Miami" class="img-circuito">
+        <span class="texto-circuito">Miami, 25/05</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\monaco.png" alt="Emilia Romagno" class="img-circuito">
+        <span class="texto-circuito">Emilia Romagno, 16/05</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\monaco.png" alt="Monáco" class="img-circuito">
+        <span class="texto-circuito">Monáco, 06/04</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\canada.png" alt="España" class="img-circuito">
+        <span class="texto-circuito">España, 16/06</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\canada.png" alt="Canadá" class="img-circuito">
+        <span class="texto-circuito">Canadá, 15/06</span>
+        </a>
+
+        <a href="html\GP.html" class="linea-gp">
+        <img src="/img\Circuitos-mini\canada.png" alt="Austria" class="img-circuito">
+        <span class="texto-circuito">Austria, 29/06</span>
+        </a>
+    </div>
+
+</body>
+</html>
